@@ -2,6 +2,7 @@
 ![image](SRLS2.1.3/img/capture187.png)
 ![image](SRLS2.1.3/img/capture173.png)
 ![image](SRLS2.1.3/img/capture169.png)
+
 # Import
 ## To import the shader into your project, the unity version should be 2022.3.34 or later
 1. Drag the unityoackage files into your project seperately.
@@ -11,7 +12,7 @@
 ###### the path of the head bone is showed in the follow img.
 ![image](SRLS2.1.3/img/Show.png)
 6. Attach the script _(Assets > 0_SR > SRLS2.1 > GetFaceDir.cs)_ to the character.Then drag the three empty objects and face/hair materials into the corresponding columns in the inspector panel.(Like the upper img)
-###### The eye-through-the-hair effect and face SDF depend on the facing direction vector.
+##### The eye-through-the-hair effect and face SDF depend on the facing direction vector.
 7. Click _play_.(The _GetFaceDir.cs_ script wouldn't update the facing direction in edit mode when you are rotating your character.)
 
 # Other Presentation
