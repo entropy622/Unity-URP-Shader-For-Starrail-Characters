@@ -21,7 +21,7 @@
 1. 将unitypackage中的文件分别拽入您的项目中.
 2. 在.material文件的inspector面板中,替换对应角色的贴图(.material文件的路径为_(Assets -> 0_SR -> mar_7th)_)
 3. 导入角色模型, 上材质 _(eyebrow应该和eye上一样的材质)_ .
-4. 在Global Volume(或者Box Volume)中,选择对应的volume文件 (文件名是 _MI Volume_),也就是上后处理效果.(不会写后处理,就用URP自带的后处理了)
+4. 在Global Volume(或者Box Volume)的Inspcter面板中,在volume->profile一栏选择对应的volume文件 (文件名是 _MI Volume Profile_). 这一步就是上后处理效果.(不会写后处理,就用URP自带的后处理了)
 5. 给角色的头部骨骼绑定三个空物体 _(假设他们的名字分别是 Center, Front, Right)_ . Center 的坐标设为 (0,0,0),Front 的坐标设为 (0,0,A)  _(A 是任意正实数)_, Right 的坐标设为 (B,0,0) _(B 是任意负实数)_
 ###### 头部骨骼路径可参考下图(该路径仅仅使用与mmd模型).
 ![image](SRLS2.1.3/img/Show.png)
@@ -32,7 +32,7 @@
 # Other Presentation
 ![image](SRLS2.1.3/img/capture175.png)
 ![image](SRLS2.1.3/img/capture183.png)
-![image](SRLS2.1.3/img/capture171.png)
+![image](SRLS2.1.3/img/capture171.png)i
 ![image](SRLS2.1.3/img/capture167.png)
 ![image](SRLS2.1.3/img/capture188.png)
 ![image](SRLS2.1.3/img/capture179.png)
