@@ -3,6 +3,13 @@
 ![image](SRLS2.1.3/img/capture173.png)
 ![image](SRLS2.1.3/img/capture169.png)
 
+# UPdate prefabes 更新prefabs
+Now you can just using the prefabs of shaded characters，but you still need to import the_ Settings.unitypakage _ and the_ Volume.unitypackage_ files in _SRLS2.1.3_ folder.
+And you still need to apply the post-processing effect. in the Global Volume (or Box Volume) Inspector panel, select the corresponding volume file (file name is _MI Volume Profile_) under the "volume->profile" section.
+现在你可以使用着色好的角色prefabe文件了，但你仍要导入_ Settings.unitypakage _ 和_ Volume.unitypackage 两个文件， （在 _SRLS2.1.3_ 文件夹中）.
+然后你仍需要在Global Volume(或者Box Volume)的Inspcter面板中,在volume->profile一栏选择对应的volume文件 (文件名是 _MI Volume Profile_). 这一步就是上后处理效果.(不会写后处理,就用URP自带的后处理了)
+
+
 # Import(ver.ENG)
 ## To import the shader into your project, the unity version should be 2022.3.34 or later
 1. Drag the unitypackage files into your project seperately.
@@ -18,7 +25,7 @@
 
 # Import(ver.CHI)
 ## 为了使用该项目,您的Unity版本需要为2022.3.34或更晚的版本.
-1. 将unitypackage中的文件分别拽入您的项目中.
+1. 将unitypackage文件分别拽入您的项目中.
 2. 在.material文件的inspector面板中,替换对应角色的贴图(.material文件的路径为_(Assets -> 0_SR -> mar_7th)_)
 3. 导入角色模型, 上材质 _(eyebrow应该和eye上一样的材质)_ .
 4. 在Global Volume(或者Box Volume)的Inspcter面板中,在volume->profile一栏选择对应的volume文件 (文件名是 _MI Volume Profile_). 这一步就是上后处理效果.(不会写后处理,就用URP自带的后处理了)
