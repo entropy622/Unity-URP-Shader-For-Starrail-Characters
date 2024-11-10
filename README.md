@@ -3,9 +3,11 @@
 ![image](SRLS2.1.3/img/capture173.png)
 ![image](SRLS2.1.3/img/capture169.png)
 
+
 # UPdate prefabes 更新prefabs
 Now you can just using the prefabs of shaded characters，but you still need to import the_ Settings.unitypakage _ and the_ Volume.unitypackage_ files in _SRLS2.1.3_ folder.
 And you still need to apply the post-processing effect. in the Global Volume (or Box Volume) Inspector panel, select the corresponding volume file (file name is _MI Volume Profile_) under the "volume->profile" section.
+
 现在你可以使用着色好的角色prefabe文件了，但你仍要导入_ Settings.unitypakage _ 和_ Volume.unitypackage 两个文件， （在 _SRLS2.1.3_ 文件夹中）.
 然后你仍需要在Global Volume(或者Box Volume)的Inspcter面板中,在volume->profile一栏选择对应的volume文件 (文件名是 _MI Volume Profile_). 这一步就是上后处理效果.(不会写后处理,就用URP自带的后处理了)
 
