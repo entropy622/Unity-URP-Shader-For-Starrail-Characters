@@ -13,7 +13,7 @@
 
 # 使用方法
 
-## 环境要求
+为了使用该项目,您的Unity版本需要为2022.3.34或更晚的版本.
 
 1. 将unitypackage文件分别拽入您的项目中.
 2. 在.material文件的Inspector面板中,替换对应角色的贴图(.material文件的路径为_(Assets -> 0_SR -> mar_7th)_)

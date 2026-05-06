@@ -14,7 +14,7 @@ You also need to apply the post-processing effect. In the Global Volume or Box V
 
 # Setup
 
-## Requirements
+To import the shader into your project, use Unity 2022.3.34 or later.
 
 1. Drag the unitypackage files into your project separately.
 2. Replace the textures in the Inspector panel for each material. The material path is _(Assets -> 0_SR -> mar_7th)_.
