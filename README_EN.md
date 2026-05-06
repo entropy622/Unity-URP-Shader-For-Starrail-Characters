@@ -1,20 +1,20 @@
 [中文](README.md)
 
-# Presentation
+# Preview
 
 ![image](SRLS2.1.3/img/capture187.png)
 ![image](SRLS2.1.3/img/capture173.png)
 ![image](SRLS2.1.3/img/capture169.png)
 
-# Updated Prefabs
+# Shaded Character Prefabs
 
 You can now use the prefabs for the shaded characters directly, but you still need to import the _Settings.unitypackage_ and _Volume.unitypackage_ files from the _SRLS2.1.3_ folder.
 
 You also need to apply the post-processing effect. In the Global Volume or Box Volume Inspector panel, select the corresponding volume file under `Volume -> Profile`. The file name is _MI Volume Profile_.
 
-# Import
+# Setup
 
-## To import the shader into your project, use Unity 2022.3.34 or later.
+## Requirements
 
 1. Drag the unitypackage files into your project separately.
 2. Replace the textures in the Inspector panel for each material. The material path is _(Assets -> 0_SR -> mar_7th)_.
@@ -32,7 +32,7 @@ You also need to apply the post-processing effect. In the Global Volume or Box V
 
 7. Click _Play_. The _GetFaceDir.cs_ script does not update the facing direction in Edit Mode while you rotate the character.
 
-# Other Presentations
+# More Previews
 
 ![image](SRLS2.1.3/img/capture175.png)
 ![image](SRLS2.1.3/img/capture183.png)
